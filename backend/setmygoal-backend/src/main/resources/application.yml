@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/setmygoal_db
+  application:
+    name: setmygoal
+
+server:
+  port: 8080
