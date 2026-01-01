@@ -14,17 +14,19 @@ export default function Home() {
 
         <div className="space-x-4">
           <button
-            onClick={() => navigate("/register")}
-            className="px-4 py-2 rounded-lg bg-white text-indigo-700 font-semibold hover:bg-gray-200"
+          onClick={() => navigate("/login")}
+          className="px-4 py-2 rounded-lg bg-white text-indigo-700 font-semibold hover:bg-gray-200"
           >
-            Login
+           Login
           </button>
+
           <button
-            onClick={() => navigate("/register")}
-            className="px-4 py-2 rounded-lg bg-yellow-400 text-black font-semibold hover:bg-yellow-300"
+          onClick={() => navigate("/register")}
+          className="px-4 py-2 rounded-lg bg-yellow-400 text-black font-semibold hover:bg-yellow-300"
           >
-            Register
+           Register
           </button>
+
         </div>
       </nav>
 
@@ -76,8 +78,9 @@ export default function Home() {
 
       {/* FOOTER */}
       <footer className="text-center pb-8 opacity-80">
-        © 2025 SetMyGoal • Career Guidance Platform
-      </footer>
+  © {new Date().getFullYear()} SetMyGoal • Career Guidance Platform
+</footer>
+
     </div>
   );
 }
